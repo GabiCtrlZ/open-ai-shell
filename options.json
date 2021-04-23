@@ -1,0 +1,77 @@
+{
+  "bash": {
+    "examples_context": "Linux bash command to accomplish the task",
+    "examples": [
+      [
+        "Get the last 5 lines of foo.txt",
+        "tail -n 5 foo.txt"
+      ],
+      [
+        "Find files ending in \"log\" in the root directory",
+        "find / -name \"*.log\""
+      ],
+      [
+        "Look up the IP address 12.34.56.78",
+        "nslookup 12.34.56.78"
+      ],
+      [
+        "Convert example.png to a JPEG",
+        "convert example.png example.jpg"
+      ],
+      [
+        "Create a git branch called foobie-bletch",
+        "git checkout -b foobie-bletch"
+      ]
+    ]
+  },
+  "node": {
+    "examples_context": "Nodejs command to accomplish the task",
+    "examples": [
+      [
+        "Print \"hello world\" to console",
+        "console.log(\"hello world\");"
+      ],
+      [
+        "Encode \"hello\" as a base64 string",
+        "Buffer.from(\"hello\").toString(\"base64\");"
+      ],
+      [
+        "Get current time as ISO string",
+        "new Date().toISOString();"
+      ],
+      [
+        "Get a random number between 0 and 100",
+        "Math.floor(Math.random() * 100);"
+      ],
+      [
+        "Send a get request to \"https://google.com\"",
+        "fetch(\"https://google.com\");"
+      ]
+    ]
+  },
+  "python": {
+    "examples_context": "Python command to accomplish the task",
+    "examples": [
+      [
+        "Print \"hello world\" to console",
+        "print(\"hello world\")"
+      ],
+      [
+        "Encode \"hello\" as a base64 string",
+        "base64.b64encode(\"hello\")"
+      ],
+      [
+        "Create a telnet connection to \"socket.somewhere.org\" on port \"1337\"",
+        "telnetlib.Telnet(\"socket.somewhere.org\", 1337)"
+      ],
+      [
+        "Get a random number between 0 and 100",
+        "random.randint(0,100)"
+      ],
+      [
+        "Send a get request to \"https://api.github.com/user\" with user \"user\" and pass \"pass\"",
+        "requests.get('https://api.github.com/user', auth=('user', 'pass'))"
+      ]
+    ]
+  }
+}
