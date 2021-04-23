@@ -36,9 +36,13 @@ def get_command(prompt, option, stop):
     if results:
         return results['answers'][0]
 
+# format home path
+def get_current_path():
+    return os.getcwd().replace(os.path.expanduser('~'), '~')
+
 # shell texts and style
 def default_text():
-    return f"{Fore.CYAN}[{os.getcwd()}]{Fore.GREEN}{Style.BRIGHT}$ {Style.RESET_ALL}"
+    return f"{Fore.CYAN}[{get_current_path()}]{Fore.GREEN}{Style.BRIGHT}$ {Style.RESET_ALL}"
 
 
 def machine_text(text):
