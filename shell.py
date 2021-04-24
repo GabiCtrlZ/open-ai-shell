@@ -6,6 +6,7 @@ import sys
 import json
 from pathlib import Path
 from dotenv import load_dotenv
+import readline
 
 import openai
 

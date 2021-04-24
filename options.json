@@ -1,6 +1,6 @@
 {
   "bash": {
-    "examples_context": "Linux bash command to accomplish the task",
+    "examples_context": "MacOs command to accomplish the task",
     "examples": [
       [
         "Get the last 5 lines of foo.txt",
