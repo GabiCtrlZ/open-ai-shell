@@ -20,7 +20,8 @@ envs
 OPENAI_API_KEY={{your open ai api key goes here}}
 ```
 
-run ```bash
+run 
+```bash
 python shell.py
 ```
 
