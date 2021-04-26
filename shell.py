@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 from dotenv import load_dotenv
 import readline
+import getch
 
 import openai
 
@@ -81,6 +82,15 @@ def handle_ai(request):
         return
     
     print(machine_text(new_command))
+
+    if not option == 'bash':
+        return
+    
+    print(default_text() + new_command)
+    key_stroke = getch.getch()
+
+    if key_stroke == '\n':
+        os.system(new_command)
 
 # shell running and stuff
 def main():
