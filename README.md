@@ -31,4 +31,4 @@ and you can you the shell just like any other shell with the added feature of qu
 
 Example:
 
-<img src="https://raw.githubusercontent.com/GabiCtrlZ/open-ai-shell/main/example.png" alt="example" height="550"  />
+<img src="https://raw.githubusercontent.com/GabiCtrlZ/open-ai-shell/main/example.png" alt="example"  />
