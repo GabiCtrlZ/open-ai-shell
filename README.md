@@ -35,4 +35,4 @@ Example:
 
 ## contribute
 
-pull requests are welcome!
+Pull requests are welcome!
