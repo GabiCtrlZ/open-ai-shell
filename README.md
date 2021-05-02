@@ -27,12 +27,12 @@ python shell.py
 
 and you can you the shell just like any other shell with the added feature of querying GPT3 every time you start a line with "->"
 
-## pictures
+## Pictures
 
 Example:
 
 <img src="https://raw.githubusercontent.com/GabiCtrlZ/open-ai-shell/main/example.png" alt="example"  />
 
-## contribute
+## Contribute
 
 Pull requests are welcome!
