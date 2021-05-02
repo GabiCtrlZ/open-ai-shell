@@ -32,3 +32,7 @@ and you can you the shell just like any other shell with the added feature of qu
 Example:
 
 <img src="https://raw.githubusercontent.com/GabiCtrlZ/open-ai-shell/main/example.png" alt="example"  />
+
+## contribute
+
+pull requests are welcome!
